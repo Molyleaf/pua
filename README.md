@@ -480,6 +480,21 @@ curl -o .agent/skills/pua/SKILL.md \
   https://raw.githubusercontent.com/tanweai/pua/main/skills/pua/SKILL.md
 ```
 
+### Google Antigravity 2.0
+
+Antigravity 2.0 Use Plugin
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/tanweai/pua
+
+# 2. 确保目标路径存在（-p 参数会自动创建缺失的父目录）
+mkdir -p .gemini/config/plugins/pua
+
+# 3. 将 antigravity 文件夹复制到目标路径下
+cp -r pua/antigravity .gemini/config/plugins/pua/
+```
+
 ### OpenCode
 
 OpenCode uses the same AgentSkills open standard (SKILL.md). Zero modifications needed:
